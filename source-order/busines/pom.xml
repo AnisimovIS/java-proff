@@ -3,12 +3,12 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>education</groupId>
-  <artifactId>busines</artifactId>
+  <artifactId>business</artifactId>
   <packaging>jar</packaging>
 
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
-  <name>busines</name>
+  <name>business</name>
   <url>http://maven.apache.org</url>
 
   <parent>
