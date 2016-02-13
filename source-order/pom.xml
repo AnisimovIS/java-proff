@@ -12,7 +12,7 @@
     <modules>
         <module>common-types</module>
         <module>persistance</module>
-        <module>busines</module>
+        <module>business</module>
         <module>web-ui</module>
         <module>parent</module>
     </modules>
