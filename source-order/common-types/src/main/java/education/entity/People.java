@@ -3,14 +3,13 @@ package education.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name="People")
+@Table(name="PEOPLE")
 public class People  {
-
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column(name = "NAME")
+    @Column(name = "people_name")
     private String name;
 
     public People(String name) {

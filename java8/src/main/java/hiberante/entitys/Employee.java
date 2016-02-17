@@ -1,17 +1,18 @@
-package education.entity;
+package hiberante.entitys;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
 import java.util.Set;
 
-@Entity
-@Table(name = "EMPLOYEE")
+/**
+ * Created by Ilya on 17.02.2016.
+ */
 public class Employee {
     private Long id;
     private String FirstName;
     private String LastName;
     private Set<Employee> manager;
-    private Post post;
+    private Appointment appointment;
 
+    public Employee() {
+    }
 
 }
